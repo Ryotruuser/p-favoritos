@@ -136,6 +136,43 @@ body{
     font-family: var(--fonte-secundaria);
 }
 
+/*Pagina sobre reaproveitamento */
+.apresentacao{
+    padding: 4% 15%;
+    gap: 82px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao-conteudo{
+    background-color: rgba(202,248,247,0.9);
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 5%;
+
+}
+
+.apresentacao-conteudo-titulo{
+    font-size: 2.25rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao-conteudo-paragrafo-bio{
+    line-height: 36px;
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonteSize-padrao);
+}
+
+.apresentacao-imagem{
+    width: 50%;
+    height: 50%;
+}
+/*Pagina sobre reaproveitamento fim, */
+
+
 @media (max-width: 1200px){
     body{
         height: 100vh;
@@ -153,5 +190,17 @@ body{
     }
     .conteudo_principal{
         padding: 6% 2%;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+        align-items: center;
+    }
+
+    .apresentacao-conteudo{
+        width: auto;
+    }
+    .apresentacao-imagem{
+        margin-bottom: 0%;
     }
 }
