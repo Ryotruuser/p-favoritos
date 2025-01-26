@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 body{
     background-color: #2e2c51;
@@ -7,7 +7,7 @@ body{
 
 .cabecalho{
     display: flex;
-    font-family: "Orbitron", serif;
+    font-family: "Audiowide", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.5rem;
@@ -18,7 +18,7 @@ body{
     font-size: 2.5rem;
     font-weight: bolder;
     background: linear-gradient(90deg, rgba(227,209,250,1) 20%, rgba(199,216,253,1) 48%, rgba(202,248,247,1) 99%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 
 }
