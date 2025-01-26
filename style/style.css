@@ -129,3 +129,23 @@ body{
     font-size: 1rem;
     font-family: var(--fonte-secundaria);
 }
+
+@media (max-width: 1200px){
+    body{
+        height: 100vh;
+        background-image: none;
+    }
+    
+    .cabecalho{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .cabecalho_menu_social{
+        justify-content: center;
+    }
+    .conteudo_principal{
+        padding: 6% 2%;
+    }
+}
