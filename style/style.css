@@ -133,7 +133,7 @@ body{
 @media (max-width: 1200px){
     body{
         height: 100vh;
-        background-image: none;
+        background-repeat: repeat-y;
     }
     
     .cabecalho{
