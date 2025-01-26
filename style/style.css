@@ -85,6 +85,11 @@ body{
     border: 5px double var(--cor-tercearia);
 }
 
+.conteudo_principal_favorito:hover{
+    opacity: 90%;
+    border: 5px double var(--cor-secundaria);
+}
+
 .favorito_titulo{
     text-align: center;
     font-family: var(--fonte-secundaria);

@@ -23,10 +23,11 @@
     </header>
 
     <main class="conteudo_principal">
-        <div class="conteudo_principal_favorito">
-            <h1 class="favorito_titulo">NARUTO</h1>
-            <img class="favorito_imagem" src="https://i.pinimg.com/564x/48/75/f4/4875f4d1c476b802a0cc85cd0a3e9796.jpg" alt="">
-        </div>
+        <a href="" class="conteudo_principal_favorito" onmouseover="mudaCorTextoAnime()" onmouseout="retornarPadraoCor()" > 
+                <h1 class="favorito_titulo">NARUTO</h1>
+                <img class="favorito_imagem" src="https://i.pinimg.com/564x/48/75/f4/4875f4d1c476b802a0cc85cd0a3e9796.jpg" alt="">
+        </a>
+
 
     </main>
 
@@ -35,4 +36,18 @@
     </footer>
     
 </body>
+
+    <script>
+        function mudaCorTextoAnime(){
+            const texto = document.getElementsByClassName("favorito_titulo");
+            texto[0].style.color = "#fc8feb";
+        }
+
+        function retornarPadraoCor(){
+            const texto = document.getElementsByClassName("favorito_titulo");
+            texto[0].style.color = "#c2f0fe";      
+        }
+
+
+    </script>
 </html>
