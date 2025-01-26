@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --fonte-primaria: "Audiowide", serif;
+    --fonte-secundaria: "Montserrat", serif;
+}
 
 body{
-    background-color: #2e2c51;
+    background-color: #342c52;
     padding: 2%;
 }
 
@@ -12,6 +17,7 @@ body{
     font-style: normal;
     font-size: 1.5rem;
     align-items: center;
+    justify-content: space-around;
 }
 
 .cabecalho_titulo{
@@ -20,31 +26,24 @@ body{
     background: linear-gradient(90deg, rgba(227,209,250,1) 20%, rgba(199,216,253,1) 48%, rgba(202,248,247,1) 99%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
-.cabecalho_menu{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.cabecalho_menu_secao_links_principal{
+.cabecalho_menu_principal{
     display: flex;
     gap: 20px;
 }
 
-.links_secao_principal{
+.links_menu_principal{
     text-decoration: none;
     color: #c2f0fe;
 }
 
-.cabecalho_menu_secao_links_social{
+.cabecalho_menu_social{
     display: flex;
     gap: 20px;
 }
 
-.links_secao_social{
+.links_menu_social{
     background-color: #fc8feb;
     padding: 5% 10%;
     border-radius: 10px;
