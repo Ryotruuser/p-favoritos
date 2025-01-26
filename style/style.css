@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
+    --cor-primaria: #080206;
+    --cor-secundaria: #c2f0fe;
+    --cor-tercearia: #fc8feb;
+
     --fonte-primaria: "Audiowide", serif;
     --fonte-secundaria: "Montserrat", serif;
 }
 
 body{
-    background-color: #342c52;
+    background-color: var(--cor-primaria);;
     padding: 2%;
 }
 
 .cabecalho{
     display: flex;
-    font-family: "Audiowide", serif;
+    font-family: var(--fonte-secundaria);
     font-weight: 400;
     font-style: normal;
     font-size: 1.5rem;
@@ -35,7 +39,7 @@ body{
 
 .links_menu_principal{
     text-decoration: none;
-    color: #c2f0fe;
+    color: var(--cor-secundaria);
 }
 
 .cabecalho_menu_social{
@@ -44,10 +48,35 @@ body{
 }
 
 .links_menu_social{
-    background-color: #fc8feb;
+    background-color: var(--cor-tercearia);
     padding: 5% 10%;
     border-radius: 10px;
     font-size: 1rem;
     text-decoration: none;
-    color: #c2f0fe;
+    color: var(--cor-secundaria);
 }
+
+.conteudo_principal{
+    display: flex;
+    padding: 2% 3%;
+}
+
+.conteudo_principal_favorito{
+    display: flex;
+    width: 15%;
+    flex-direction: column;
+    border: 5px double var(--cor-tercearia);
+}
+
+.favorito_titulo{
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    color: var(--cor-secundaria);
+    font-weight: 600;
+}
+
+.favorito_imagem{
+    width: 100%;
+}
+
