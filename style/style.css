@@ -80,17 +80,18 @@ body{
 }
 
 .conteudo_principal{
-    flex-grow: 1;
     display: flex;
-    padding: 5% 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.6% 10%;
     gap: 50px;
 }
 
 .conteudo_principal_favorito{
     display: flex;
-    width: 15%;
     flex-direction: column;
     border: 5px double var(--cor-tercearia);
+    text-decoration: none;
 }
 
 .conteudo_principal_favorito:hover{
@@ -101,21 +102,20 @@ body{
 .favorito_titulo{
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: var(--cor-secundaria);
+    padding: 2%;
     font-weight: 600;
     text-shadow: 2px 2px var(--cor-primaria);
 }
 
 .favorito_imagem{
-    width: 100%;
+    height: 100%;
 }
 
 .rodape{
-    margin: 0;
-    position: fixed;
-    bottom: 0;
-    padding: 0.6% 0%;
+    margin: 10% 0%;
+    padding: 0.3% 0%;
     width: 100%;
     display: flex;
     background-color: var(--cor-secundaria);
@@ -124,6 +124,6 @@ body{
 }
 
 .rodape_titulo{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: var(--fonte-secundaria);
 }
