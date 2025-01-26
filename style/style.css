@@ -88,6 +88,9 @@ body{
 }
 
 .conteudo_principal_favorito{
+    width: 300px;
+    height: 450px; 
+    overflow: hidden; 
     display: flex;
     flex-direction: column;
     border: 5px double var(--cor-tercearia);
@@ -111,8 +114,11 @@ body{
 }
 
 .favorito_imagem{
-    height: 100%;
+    object-position: center;
+    height: 100%; 
     border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+    
 }
 
 .rodape{
