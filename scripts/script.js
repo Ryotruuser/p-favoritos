@@ -40,7 +40,7 @@ function element9(){
 }
 function retornarPadraoCor(){
     const texto = document.getElementsByClassName("favorito_titulo");
-    for (let index = 0; index < 9; index++) {
+    for (let index = 0; index < 10; index++) {
         texto[index].style.color = "#c2f0fe"; 
         
     }
