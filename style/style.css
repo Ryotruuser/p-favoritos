@@ -12,13 +12,13 @@
 body{
     background-image: url("/assets/bgimage1.jpg");
     background-repeat: no-repeat, repeat;
-    background-size: cover;
-    padding: 2%;
     box-sizing: border-box;
     background-color:var(--cor-primaria);
+    height: 100vh;
 }
 
 .cabecalho{
+    padding: 2% 0%;
     display: flex;
     font-family: var(--fonte-secundaria);
     font-weight: 400;
@@ -61,8 +61,10 @@ body{
 }
 
 .conteudo_principal{
+    flex-grow: 1;
     display: flex;
-    padding: 2% 3%;
+    padding: 5% 2%;
+    gap: 50px;
 }
 
 .conteudo_principal_favorito{
@@ -78,9 +80,19 @@ body{
     font-size: 1.5rem;
     color: var(--cor-secundaria);
     font-weight: 600;
+    width: auto;
 }
 
 .favorito_imagem{
     width: 100%;
+}
+
+footer{
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    background-color: var(--cor-secundaria);
 }
 
