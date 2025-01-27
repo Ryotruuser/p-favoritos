@@ -185,6 +185,9 @@ body{
         align-items: center;
         gap: 20px;
     }
+    .links_menu_principal{
+        font-size: 1.25rem;
+    }
     .cabecalho_menu_social{
         justify-content: center;
     }
